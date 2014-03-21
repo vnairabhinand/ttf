@@ -1,0 +1,390 @@
+/* Common Style */
+body
+{
+	background-color	: #FFFFFF;
+	padding				: 0px;
+	/* [disabled]margin				: 0px; */
+	/* [disabled]overflow			: -moz-scrollbars-vertical; */
+}
+
+td, p
+{
+	font-family	: Verdana, Arial, Helvetica, sans-serif;
+	font-size	: 10px;
+	font-weight	: normal;
+	color		: #000000;
+}
+
+/* Form Style */
+input, textarea
+{
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	background-color	: #FFFFFF;
+	border				: 1px solid #C8C8C8;
+	font-size			: 11px;
+	color				: #000000;
+	padding				: 3px;
+}
+
+input:hover, textarea:hover
+{
+	border	: 1px solid #A4A4A4;
+}
+
+select
+{
+	font-family			: Verdana, Arial, Helvetica, sans-serif;
+	background-color	: #FFFFFF;
+	border				: 1px solid #C8C8C8;
+	font-size			: 11px;
+	color				: #000000;
+}
+
+img
+{
+	border	: 0;
+}
+
+a
+{
+	color			: #000000;
+	text-decoration	: none;
+}
+a:link	{ text-decoration : none; 	color : #000000; }
+a:hover	{ text-decoration : none;	color : #2699CF; }
+
+.stdCheckBox, .stdCheckBox:hover
+{
+	border		: none;
+	background	: none;
+}
+
+.button
+{
+	color		: #FFFFFF;
+	background	: url(../images/btn_bg.gif);
+	font-weight	: bold;
+	border		: 1px solid #50A1E4;
+	padding		: 2px;
+	cursor		: pointer;
+}
+
+.pointer
+{
+	cursor	: pointer;
+}
+
+/* Title Style */
+h1  /* Company Name */
+{
+	color		: #000000;
+	font-size	: 20px;
+	font-weight	: normal;
+	line-height	: 30px;
+	padding		: 0px;
+	margin		: 0px;
+}
+
+h2 /* Company Slogan */
+{
+	color		: #000000;
+	font-size	: 12px;
+	font-weight	: normal;
+	line-height	: 20px;
+	padding		: 0px;
+	margin		: 0px;
+}
+
+h3 /* Company Slogan */
+{
+	color			: #000000;
+	font-size		: 12px;
+	font-weight		: normal;
+	line-height		: 20px;
+	padding-left	: 5px;
+	padding			: 0px;
+	margin			: 0px;
+}
+
+/* Left Menu Style */
+.leftmenu
+{
+	width		: 190px; /* Width Of Menu */
+	color		: #000000;
+	text-align	: left;
+}
+
+.boldtext
+{
+	font-weight	: bold;
+}
+
+.leftmenu a.menuitem
+{
+	background		: url(../images/left_menu_bg.jpg) 0px 0px no-repeat;
+	color			: #000000;
+	display			: block;
+	position		: relative;
+	text-decoration	: none;
+	padding-left	: 7px;
+	margin-bottom	: 1px;
+	height			: 32px;
+}
+
+.leftmenu a.menuitem:hover
+{
+	background	: url(../images/left_menu_bg_hvr.jpg) 0px 0px no-repeat;
+}
+
+.leftmenu .imgmargin
+{
+	margin-top	: 1px;
+	width		: 25px;
+	float		: left;
+}
+
+.leftmenu .textmargin
+{
+	padding-left	: 5px;
+	line-height		: 32px;
+	font-weight		: bold;
+}
+
+.leftmenu div.submenu /* DIV That Contains Each Sub Menu */
+{
+}
+
+.leftmenu div.submenu ul /* UL Of Each Sub Menu */
+{
+	list-style-type	: none;
+	padding			: 0px;
+	margin			: 0px;
+}
+
+.leftmenu div.submenu ul li
+{
+	background	: #DDDDDD;
+}
+
+.leftmenu div.submenu ul li a
+{
+	display			: block;
+	color			: #000000;
+	text-decoration	: none;
+	padding-left	: 15px;
+	line-height		: 26px;
+	border-bottom	: 1px solid #FFFFFF;
+}
+
+.leftmenu div.submenu ul .lastchild
+{
+	background	: #FFFFFF;
+}
+
+.leftmenu div.submenu ul .firstchild
+{
+	border-bottom	: 1px solid #FFFFFF;
+}
+
+.leftmenu div.submenu ul li a:hover
+{
+	font-weight	: bold;
+	color		: #448FD4;
+	background	: #FFFFFF url(../images/left_menu_rarrow.jpg) 5px 9px no-repeat;
+}
+
+.leftmenu div.submenu ul li a .current
+{
+	font-weight	: bold;
+	color		: #448FD4;
+	background	: #FFFFFF url(../images/left_menu_rarrow.jpg) 5px 9px no-repeat;
+}
+
+/* Other Style */
+.red
+{
+	color				: #FB0808;
+	font-size			: 11px;
+	text-decoration		: none;
+	font-weight			: bold;
+}
+
+.mandatory
+{
+	color	: #FF0000;
+}
+
+.errormsg
+{
+	color			: #FF0000;
+	font-size		: 11px;
+	text-decoration	: none;
+	font-weight		: normal;
+}
+
+.successmsg
+{
+	color			: #006633;
+	font-size		: 11px;
+	text-decoration	: none;
+	font-weight		: normal;
+}
+
+.bluelink
+{
+	color		: #2699CF;
+	font-size	: 11px;
+	
+}
+
+.bluelink a
+{
+	color			: #2699CF;
+	text-decoration	: none;
+	font-weight		: bold;
+}
+
+.bluelink a:hover
+{
+	color			: #000000;
+	text-decoration	: underline;
+	font-weight		: bold;
+}
+
+a.abclink
+{
+	font-size		: 11px;
+	font-weight		: bold;
+	color			: #000000;
+	text-decoration	: none;
+}
+
+a.abclink:hover
+{
+	font-size		: 11px;
+	font-weight		: bold;
+	color			: #0080EB;
+	text-decoration	: none;
+}
+
+a.textlink
+{
+	font-size		: 11px;
+	font-weight		: normal;
+	color			: #000000;
+	text-decoration	: none;
+}
+
+a.textlink:hover
+{
+	font-size		: 11px;
+	font-weight		: normal;
+	color			: #0080EB;
+	text-decoration	: none;
+}
+
+.columnlink
+{
+	font-size		: 11px;
+	font-weight		: bold;
+	background		: url(../images/frm_title_bg.jpg) 0px 0px repeat-x;
+	line-height		: 27px;
+	color			: #000000;
+	text-decoration	: none;
+	text-align		: center;
+}
+.columnlink1
+{
+	font-size		: 11px;
+	font-weight		: bold;
+	background		: url(../images/frm_bg.png) 0px 0px repeat-x;
+	line-height		: 27px;
+	color			: #000000;
+	text-decoration	: none;
+	text-align		: center;
+}
+
+a.columnlink
+{
+	color			: #000000;
+	text-decoration	: none;
+	background		: none;
+}
+
+a.columnlink:hover
+{
+	color			: #0080EB;
+	text-decoration	: none;
+}
+
+.formtitle
+{
+	font-size		: 12px;
+	font-weight		: bold;
+	background		: url(../images/frm_title_bg.jpg) 0px 0px repeat-x;
+	color			: #000000;
+	text-decoration	: none;
+    height 			: 27px;
+}
+
+.formtitlesub
+{
+	font-size		: 11px;
+	font-weight		: bold;
+	background		: url(../images/frm_title_bg.jpg) 0px 0px repeat-x;
+	color			: #000000;
+	text-decoration	: none;
+}
+
+.classA
+{
+	color				: #000000;
+	background-color	: #F3F3F3;
+}
+
+.classB
+{
+	color				: #000000;
+	background-color	: #E9E9E9;
+}
+
+
+
+
+.inputleft
+{
+	background-color	: #ECECEC;
+	font-weight			: bold;
+}
+
+.inputright
+{
+	color				: #000000;
+	background-color	: #F3F3F3;
+}
+
+/* Footer Style */
+.footer
+{
+	font-size	: 11px;
+	color		: #7B7B7B;
+	line-height	: 15px;
+}
+
+.footer a
+{
+	color			: #7B7B7B;
+	text-decoration	: none;
+}
+
+.footer a:hover
+{
+	color			: #000000;
+	text-decoration	: underline;
+}
+.dataTableHeadingRow { background-color: #C9C9C9; }
+.dataTableHeadingContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ffffff; font-weight: bold; }
+.dataTableRow { background-color: #F0F1F1; }
+.dataTableRowSelected { background-color: #DEE4E8; }
+.dataTableRowOver { background-color: #FFFFFF; cursor: pointer; cursor: hand; }
+.dataTableContent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; }

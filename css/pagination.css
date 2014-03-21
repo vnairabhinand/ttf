@@ -1,0 +1,35 @@
+div.pagination_new {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination_new a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #666666;
+	
+	text-decoration: none; /* no underline */
+	color: #666666;
+}
+div.pagination_new a:hover, div.pagination_new a:active {
+	border: 1px solid #666666;
+
+	color: #000;
+}
+div.pagination_new span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #666666;
+		
+		font-weight: bold;
+		background-color: #FFBC1B;
+		color: #FFF;
+	}
+	div.pagination_new span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+	

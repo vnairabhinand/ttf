@@ -1,0 +1,7 @@
+[07-Mar-2014 09:39:21] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home1/handa123/public_html/ESPECIALLYTHEFAMILY.ORG/ETF/dmyaccountlist.php on line 532
+[07-Mar-2014 09:47:21] PHP Parse error:  syntax error, unexpected T_ELSE in /home1/handa123/public_html/ESPECIALLYTHEFAMILY.ORG/ETF/dmyaccountlist.php on line 605
+[07-Mar-2014 09:54:09] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home1/handa123/public_html/ESPECIALLYTHEFAMILY.ORG/ETF/dmyaccountlist.php on line 569
+[07-Mar-2014 09:56:19] PHP Warning:  strpos() [<a href='function.strpos'>function.strpos</a>]: Offset not contained in string in /home1/handa123/public_html/ESPECIALLYTHEFAMILY.ORG/ETF/dmyaccountlist.php on line 558
+[07-Mar-2014 10:20:46] PHP Fatal error:  Call to undefined function  get_country() in /home1/handa123/public_html/ESPECIALLYTHEFAMILY.ORG/ETF/dmyaccountlist_view.php on line 478
+[16-Mar-2014 08:33:44] PHP Warning:  Unterminated comment starting line 89 in /home1/handa123/public_html/ESPECIALLYTHEFAMILY.ORG/ETF/viewneeds.php on line 89
+[16-Mar-2014 08:33:44] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home1/handa123/public_html/ESPECIALLYTHEFAMILY.ORG/ETF/viewneeds.php on line 89
