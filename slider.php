@@ -129,4 +129,3 @@
                     <li id="banner4"><a href="#"><span>Our</span>progress</a></li>
 				</ul>
 			</div>
-			<!--testing the change in git -->
