@@ -1,6 +1,7 @@
 <?php session_start();
 
   include("include/config.php");
+  //edited by manoj....@2014 march 23
 
 ?>
 
