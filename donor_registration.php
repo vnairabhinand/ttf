@@ -214,10 +214,10 @@ If you have any complaints or wish to report any technical problems with our sit
 								
 	              <br/> 
 	
-								<input type="submit"  name="sub" id="id_complete" value="Submit" disabled="disabled">                          
+								<input type="submit"  name="sub" id="id_complete" value="Submit" disabled="disabled" class="button2 color3" >                          
 
 								<!--<a href="#" class="button2 color3" onClick="document.getElementById('MemberForm').submit()">Send</a>-->
-								<a href="#" class="color3" onClick="document.getElementById('MemberForm').reset()">Clear</a>
+								<a href="#"  class="button2 color3" onClick="document.getElementById('MemberForm').reset()">Clear</a>
 						</div></form>
 					</section>
 				</div>
