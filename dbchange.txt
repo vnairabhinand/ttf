@@ -1,0 +1,13 @@
+//March 23 2014
+CREATE TABLE  `payment_profiles` (
+ `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+ `donor_id` INT NOT NULL ,
+ `payment_date` DATE NOT NULL ,
+ `plan` INT NOT NULL ,
+ `from_date` DATE NOT NULL ,
+ `to_date` DATE NOT NULL ,
+ `payment_status` VARCHAR( 300 ) NOT NULL ,
+ `subscriber_id` VARCHAR( 300 ) NOT NULL
+) ENGINE = MYISAM ;
+
+ALTER TABLE  `donor_register` ADD  `after_reg_stp` INT NOT NULL AFTER  `Iagree` ;

@@ -203,7 +203,7 @@ If you have any complaints or wish to report any technical problems with our sit
       </td>
   </tr>
   <tr>
-    <td colspan="2" align="left"><input type="checkbox" name="chk"   value="1" onClick="apply()">I have read and I agree to the Terms and Conditions and Privacy Policy.</td>
+    <td colspan="2" align="left"><input type="checkbox" name="chk"   value="1" >I have read and I agree to the Terms and Conditions and Privacy Policy.</td>
     </tr>
   <tr>
     <td>&nbsp;</td>
@@ -214,7 +214,7 @@ If you have any complaints or wish to report any technical problems with our sit
 								
 	              <br/> 
 	
-								<input type="submit"  name="sub" id="id_complete" value="Submit" disabled="disabled" class="button2 color3" >                          
+								<input type="submit"  name="sub" id="id_complete" value="Submit"  class="button2 color3" >                          
 
 								<!--<a href="#" class="button2 color3" onClick="document.getElementById('MemberForm').submit()">Send</a>-->
 								<a href="#"  class="button2 color3" onClick="document.getElementById('MemberForm').reset()">Clear</a>
