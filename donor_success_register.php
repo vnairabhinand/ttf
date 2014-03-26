@@ -97,7 +97,7 @@ anylinkmenu.init("menuanchorclass")
 
 						<section class="col2 pad_left1" style="width:800px">
 
-                        <span style="text-align:left;font-size:24px; line-height:1.5;font-weight:bold; ">Thank you for registering to become a donor with Especially The Family! Please check your email to complete the registration process.</span>
+                        <span style="text-align:left;font-size:24px; line-height:1.5;font-weight:bold; ">Thank you for registering to become a donor with Especially The Family. When we have confirmed the receipt of your donation we will email you to let you know you are free to log in as an official ETF donor.</span>
 
 
 
